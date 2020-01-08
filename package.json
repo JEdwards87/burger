@@ -1,0 +1,30 @@
+{
+  "name": "burger",
+  "version": "1.0.0",
+  "description": "burger tracker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JEdwards87/burger.git"
+  },
+  "author": "Jesse Edwards",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JEdwards87/burger/issues"
+  },
+  "homepage": "https://github.com/JEdwards87/burger#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "bulma": "^0.8.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "mysql": "^2.17.1",
+    "mysql-server": "^1.0.5",
+    "mysql2": "^2.1.0",
+    "path": "^0.12.7",
+    "sequelize": "^5.21.3"
+  }
+}
