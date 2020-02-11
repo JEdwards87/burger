@@ -1,4 +1,5 @@
-Burger
+# Burger App
+
 Live Link: https://burger-party.herokuapp.com/
 
 Description: Burger is a restaurant app that lets users enter the names of burgers they want to eat.
