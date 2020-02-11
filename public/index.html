@@ -1,0 +1,48 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Burger Master</title>
+    
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css" />
+    <link rel="icon" type="img/png" href="img/favicon-32x32.png" />
+    <link href="/public/css/styles.css">
+    <style>
+      .yumC {
+        width: 50%;
+        margin-left: 50%;
+    }
+    </style>
+  </head>
+  <body>
+      <section class="hero">
+        <div class="hero-body">
+          <div class="container">
+            <h1 class="title">
+              Burgermeister
+            </h1>
+            <h2 class="subtitle">
+              Meister Burger
+            </h2>
+          </div>
+        </div>
+      </section>
+      <main>   
+        <form class="form">
+          <input id = "burgerNameEl" type="text">
+          <button id="saveEl" name="button">Enter</button>
+          </input>
+        </form>  
+    <div class="yumC"></div>
+    <div id="burgerOrder"></div>
+    </main>
+    <script>
+      src="http://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    </script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js" />
+      <script type="text/javascript" src="burgerOrders.js"></script>
+  </body>
+</html>
