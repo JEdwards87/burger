@@ -14,7 +14,7 @@ app.use(express.static('public'))
 
 app.get("/", function (req, res) {
   console.log(res),
-  res.render(path.join(__dirname, "../public/index.html"));
+  res.render(path.join(__dirname, "/public/index.html"));
 });
 
 app.get("/allOrders", function(req, res) {
